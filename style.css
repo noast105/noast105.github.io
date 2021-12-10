@@ -1,0 +1,61 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+    background: url(header.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-family: fantasy;
+	text-align: center;
+	font-size: 3em; 
+	box-shadow: 4px 4px 5px #888888;
+}
+h3:hover {
+	cursor: pointer; 
+	color: white;
+	text-align: center;
+	border: 2px dashed white;
+} 
+h4 {
+	font-family: Georgia, "Times New Romen";
+	color: #EB44A2;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img {
+	width: 350px;
+	height: 250px;
+	margin: 10px; 
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1); 
+}
+p {
+	line-height: 50px;
+	font-size: 150%;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-primary {
+	background-color: #F340A9;
+	border-color: #F340A9;
+}
+.btn-primary:hover {
+	background-color: #FF0597;
+	border-color: #FF0597;
+	border-width: 4px;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
